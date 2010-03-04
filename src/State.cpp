@@ -10,9 +10,7 @@
 
 using namespace std;
 
-State::State(matrix& incid) {
-	this->incidence = incid;
-	cout << "Creating a new state";
+State::State() {
 
 }
 

@@ -15,8 +15,8 @@ using namespace std;
 class State {
 public:
 	typedef vector<  vector<int> > matrix;
-	matrix& incidence;
-	State(matrix& incidence);
+	matrix incidence;
+	State();
 	virtual ~State();
 };
 
