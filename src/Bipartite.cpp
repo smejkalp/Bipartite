@@ -13,8 +13,9 @@
 using namespace std;
 
 int main() {
+	State *firstState;
 
-
+	firstState = new State();
 	stack<State*> states;
 
 
