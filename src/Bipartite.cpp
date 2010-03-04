@@ -13,10 +13,26 @@
 using namespace std;
 
 int main() {
-	//State *firstState;
+	State firstState;
+	int size = 5;
+	matrix incidence(size, vector<int>(size));
 
-	//firstState = new State();
-	stack<State*> states;
+
+	int incidence_array[5][5] = {
+										{0,0,1,0,1},
+										{0,0,0,1,0},
+										{1,0,0,0,1},
+										{0,1,0,0,1},
+										{1,0,1,1,0}
+	};
+
+	for(int i = 0; i < 5; i++){
+		for(int j = 0; j < 5; j++){
+			incidence[i][j] = incidence_array[i][j];
+		}
+	}
+
+	firstState = new State(incidence);
 
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 	return 0;

@@ -12,11 +12,12 @@
 
 using namespace std;
 
+typedef vector<  vector<int> > matrix;
 class State {
 public:
-	typedef vector<  vector<int> > matrix;
+
 	matrix incidence;
-	State();
+	State(matrix incidence);
 	virtual ~State();
 };
 

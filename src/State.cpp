@@ -10,8 +10,8 @@
 
 using namespace std;
 
-State::State() {
-
+State::State(matrix incidence) {
+	this->incidence = incidence;
 }
 
 State::~State() {
