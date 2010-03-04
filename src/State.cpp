@@ -10,9 +10,10 @@
 
 using namespace std;
 
-State::State() {
-	// TODO Auto-generated constructor stub
+State::State(matrix& incid) {
+	this->incidence = incid;
 	cout << "Creating a new state";
+
 }
 
 State::~State() {

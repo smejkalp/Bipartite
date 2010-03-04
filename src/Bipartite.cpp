@@ -13,12 +13,11 @@
 using namespace std;
 
 int main() {
-	State *firstState;
+	//State *firstState;
 
-	firstState = new State();
+	//firstState = new State();
 	stack<State*> states;
 
-egw fgkwrkrhkwrgh
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 	return 0;
 }
